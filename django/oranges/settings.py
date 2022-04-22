@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'playground',
     'debug_toolbar',
+    'api',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
@@ -57,7 +59,6 @@ INTERNAL_IPS = [
 ]
 
 ROOT_URLCONF = 'oranges.urls'
-
 
 TEMPLATES = [
     {
